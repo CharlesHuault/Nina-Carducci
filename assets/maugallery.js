@@ -136,6 +136,7 @@
           }
         });
       }
+      // débogage début //
       let index = 0,
         prev = null;
 
@@ -182,6 +183,7 @@
       next = imagesCollection[index + 1] || imagesCollection[0];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
+    // débogage fin //
     createLightBox(gallery, lightboxId, navigation) {
       gallery.append(`<div class="modal fade" id="${
         lightboxId ? lightboxId : "galleryLightbox"
