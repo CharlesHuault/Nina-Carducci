@@ -67,10 +67,16 @@ body {
 	z-index: 0;
 }
 
-.picture img {
+.right img {
 	width: 100%;
-
+	max-width: 420px;
 }
+
+.left img {
+	width: 100%;
+	max-width: 422px;
+}
+
 #about-me {
 	flex: 2
 }
